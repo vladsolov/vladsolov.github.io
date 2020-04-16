@@ -1,0 +1,101 @@
+body {
+  background: #ffffff;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+  border: none;
+  color: #000000;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  font-family: Arial;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-size: 20px;
+  padding: 0 0 10px 0;
+  color: #545454;
+}
+
+.mainer {
+  max-width: 1520px;
+  padding: 0;
+  margin: 0;
+}
+
+.block-homework {
+  padding: 0;
+  margin: 0;
+}
+.block-homework__row {
+  display: flex;
+}
+.block-homework__col {
+  border: 1px solid red;
+  width: 100%;
+  background-color: #D7F8FD;
+}
+.block-homework__ul {
+  padding: 0;
+  margin: 0;
+}
+.block-homework__h1 {
+  background: linear-gradient(to right, #563d7c 50%, #e34c26 50%);
+  text-align: center;
+  color: black;
+  padding: 10px 14px 0 10px;
+}
+.block-homework__h1--js {
+  background-color: #f1e05a;
+  text-align: center;
+  color: black;
+  padding: 10px 14px 0 10px;
+}
+.block-homework__li {
+  list-style: none;
+  padding: 15px 0 0 10px;
+}
+.block-homework__a {
+  font-size: 20px;
+}
+.block-homework__a:hover {
+  border-radius: 15px;
+  padding: 5px 10px 5px 0;
+  background-color: #61def1;
+}
+.block-homework__a--part {
+  border-radius: 15px;
+  padding: 5px 10px 5px 0;
+  font-size: 16px;
+}
+.block-homework__a--part:hover {
+  background-color: #61def1;
+}
